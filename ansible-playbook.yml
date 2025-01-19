@@ -9,4 +9,4 @@
     - name: start docker service
       service: name=docker state=started
     - name: docker con
-      command: docker run -d -p 4567:8081 likith2468/insurance:1
+      command: docker run -d -p 4567:8081 likith2468/insurance:2
